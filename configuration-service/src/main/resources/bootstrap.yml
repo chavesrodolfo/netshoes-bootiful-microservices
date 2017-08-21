@@ -6,5 +6,5 @@ spring:
     index: ${random.int}
   cloud.config:
     server:
-      git.uri: git@github.com:marcosbarbero/netshoes-bootiful-config-repo.git
+      git.uri: https://github.com/chavesrodolfo/netshoes-bootiful-config-repo.git
       bootstrap: true
